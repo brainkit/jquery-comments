@@ -1,10 +1,8 @@
 {
-  "name": "jquery-comments",
+  "name": "jquery-comments_brainkit",
   "title": "jquery-comments",
-  "version": "1.2.0",
-  "author": {
-    "name": "Joona Tykkylainen"
-  },
+  "version": "1.2.2",
+  "author": "Joona Tykkylainen",
   "description": "jQuery plugin for implementing an out-of-the-box commenting solution to any web application with an existing backend",
   "license": "MIT",
   "main": "js/jquery-comments.js",
@@ -19,9 +17,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Viima/jquery-comments.git"
+    "url": "https://github.com/brainkit/jquery-comments"
   },
   "dependencies": {
     "jquery": ">=1.9.0"
+  },
+  "bugs": {
+    "url": "https://github.com/brainkit/jquery-comments/issues"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
