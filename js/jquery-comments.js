@@ -1962,7 +1962,7 @@
             do {
                 var parentComment = this.commentsById[parentId];
                 parentId = parentComment.parent;
-            } while(parentComment.parent != null);
+            } while(parentComment.parent != 0);
             return parentComment;
         },
 
